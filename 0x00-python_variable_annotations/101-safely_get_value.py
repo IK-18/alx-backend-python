@@ -11,6 +11,9 @@ Default = Union[T, None]
 
 
 def safely_get_value(dct: Mapping, key: Any, default: Default = None) -> Value:
+    '''
+    Safely retrieve a avlue from a dict
+    '''
     if key in dct:
         return dct[key]
     else:
