@@ -5,7 +5,7 @@ Type annotations for function
 from typing import Any, Mapping, Union, TypeVar
 
 
-T = TypeVar('V')
+T = TypeVar('T')
 Value = Union[Any, T]
 Default = Union[T, None]
 
