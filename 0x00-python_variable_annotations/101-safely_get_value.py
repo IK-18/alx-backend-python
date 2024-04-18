@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""
+'''
 Type annotations for function
-"""
+'''
 from typing import Any, Mapping, Union, TypeVar
 
 

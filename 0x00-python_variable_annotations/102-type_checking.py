@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""
+'''
 Type annotate function
-"""
+'''
 from typing import List, Tuple
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
-    """
+    '''
     Duplicates a list and multiplies its values by a factor
-    """
+    '''
     zoomed_in: List = [
         item for item in lst
         for i in range(int(factor))
